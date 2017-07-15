@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Url shortener</title>
+</head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+  }
+  .container {
+    width: 960px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+</style>
+<body>
+  <div class="container">
+    <h1>Url shortener</h1>
+    <hr>
+    <h2>Usage</h2>
+    <p>
+      <b>Api endpoint: </b><mark><code> https://shy-save.glitch.me/api</code></mark>
+    </p>
+    <p>
+      <b>Query string: </b><mark><code> ?url=[url to shorten]</code></mark>
+    </p>
+    <h2>Example</h2>
+    <h3>Request</h3>
+    <p>
+      <code>https://s-url.glitch.me/api?url=https://gitter.im/FreeCodeCamp/FreeCodeCamp</code>
+    </p>
+    <h3>Response</h3>
+    <pre>
+{
+  "full": "https://gitter.im/FreeCodeCamp/FreeCodeCamp",
+  "short": "shy-save.glitch.me/SypRsevHb"
+}
+    </pre>
+    <hr>
+    <p><a href="https://github.com/AdelMahjoub/f2c-url-shortener-api" target="_blank">Github</a></p>
+    <p><a href="https://glitch.com/edit/#!/s-url?path=server.js:1:0" target="_blank">Glitch</a></p>
+  </div>
+</body>
+</html>

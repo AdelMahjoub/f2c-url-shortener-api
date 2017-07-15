@@ -1,0 +1,28 @@
+{
+  "name": "utl-shortener",
+  "version": "1.0.0",
+  "description": "shorten urls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server",
+    "start": "NODE_ENV=production forever server.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "nodejs",
+    "url",
+    "shorten"
+  ],
+  "author": "AdelMahjoub",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "forever": "^0.15.3",
+    "mongoose": "^4.11.2",
+    "shortid": "^2.2.8",
+    "validator": "^8.0.0"
+  }
+}
